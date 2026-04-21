@@ -52,6 +52,8 @@ The biggest challenge was working with the structure of the Hypixel API response
 
 Another challenge was making product names readable because Hypixel product IDs use underscores and symbols. The app creates cleaner display names from those IDs.
 
+Lastly, a challenge encountered was making sure that there were a certain amount of items on the screen at once because before we had that, it ended up being very laggy. 
+
 ## Future Improvements
 
 - Persist favorites permanently with `AppStorage` or SwiftData
