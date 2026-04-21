@@ -32,7 +32,7 @@
 
 The biggest challenge was working with the structure of the Hypixel API response. Bazaar products are returned as a dictionary instead of an array, so the app has to convet the dictionary values into an array before showing them in the app. This was hard because each and every product has something different. 
 
-Another challenge was making product names readable because Hypixel product IDs use underscores and symbols. The app creates cleaner display names from those IDs.
+Another challenge was making product names readable because Hypixel product IDs use underscores and symbols. I fixed this so that the app creates better looking display names from those IDs.
 
 Lastly, a challenge encountered was making sure that there were a certain amount of items on the screen at once because before we had that, it ended up being very laggy. 
 
