@@ -1,21 +1,25 @@
-//
-//  ContentView.swift
-//  HypixelBazaarTracker
-//
-//  Created by Nikhil Budamagunta on 4/21/26.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var favoritesStore = FavoritesStore()
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            NavigationStack {
+                HomeView()
+            }
+            .tabItem {
+                Label("Bazaar", systemImage: "chart.line.uptrend.xyaxis")
+            }
+
+            NavigationStack {
+                FavoritesView()
+            }
+            .tabItem {
+                Label("Favorites", systemImage: "star.fill")
+            }
         }
-        .padding()
+        .environmentObject(favoritesStore)
     }
 }
 

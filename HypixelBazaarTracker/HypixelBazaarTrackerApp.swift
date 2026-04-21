@@ -1,10 +1,3 @@
-//
-//  HypixelBazaarTrackerApp.swift
-//  HypixelBazaarTracker
-//
-//  Created by Nikhil Budamagunta on 4/21/26.
-//
-
 import SwiftUI
 
 @main
