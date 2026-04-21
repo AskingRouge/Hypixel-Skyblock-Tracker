@@ -1,15 +1,7 @@
 # Hypixel Bazaar Tracker
 
-## Purpose
+## API Used
 
-Hypixel Bazaar Tracker is an iOS SwiftUI app that shows live Hypixel SkyBlock Bazaar market data. Users can search Bazaar items, sort them by price or weekly volume, filter for profitable flips, and open a detail page for each item.
-
-## API and Tools Used
-
-- SwiftUI
-- `URLSession`
-- `async/await`
-- `Codable`
 - Hypixel SkyBlock Bazaar API: `https://api.hypixel.net/v2/skyblock/bazaar`
 
 ## Features Implemented
@@ -31,25 +23,14 @@ Hypixel Bazaar Tracker is an iOS SwiftUI app that shows live Hypixel SkyBlock Ba
 - Bazaar item detail screen
 - Favorites/watchlist screen
 
-## Requirement Checklist
-
-- [x] `ForEach` with reusable subviews
-- [x] `@State` property
-- [x] 2+ unique input components
-- [x] Binding
-- [x] API endpoint
-- [x] Service class
-- [x] JSON decoding
-- [x] Codable structs
-
 ## Video
 
 <p align="center">
-  <img src="Media/vid.gif">
+  <img src="Media/vid.gif" width="200">
 
 ## Obstacles
 
-The biggest challenge was working with the structure of the Hypixel API response. Bazaar products are returned as a dictionary instead of an array, so the app converts the dictionary values into an array before showing them in SwiftUI.
+The biggest challenge was working with the structure of the Hypixel API response. Bazaar products are returned as a dictionary instead of an array, so the app has to convet the dictionary values into an array before showing them in the app. This was hard because each and every product has something different. 
 
 Another challenge was making product names readable because Hypixel product IDs use underscores and symbols. The app creates cleaner display names from those IDs.
 
@@ -57,7 +38,7 @@ Lastly, a challenge encountered was making sure that there were a certain amount
 
 ## Future Improvements
 
-- Persist favorites permanently with `AppStorage` or SwiftData
+- Favorite items to flip
 - Add item categories
 - Add price alerts
 - Add charts for price trends
