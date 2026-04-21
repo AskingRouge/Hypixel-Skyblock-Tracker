@@ -2,7 +2,7 @@
 
 ## App Idea
 
-**Hypixel Bazaar Tracker** is a SwiftUI app that displays live Hypixel SkyBlock Bazaar market data. Users can browse items, search for a specific product, sort by different market values, and open a detail screen for deeper price and volume information.
+**Hypixel Bazaar Tracker** is an app that displays live Hypixel SkyBlock Bazaar market data. Users can browse items, search for a specific product, sort by different market values, and open a detail screen for deeper price and volume information.
 
 ## Service
 
