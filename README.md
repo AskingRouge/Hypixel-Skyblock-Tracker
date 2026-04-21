@@ -42,7 +42,8 @@ Hypixel Bazaar Tracker is an iOS SwiftUI app that shows live Hypixel SkyBlock Ba
 - [x] JSON decoding
 - [x] Codable structs
 
-## Screenshots or Video
+## Video
+
 
 
 ## Obstacles
