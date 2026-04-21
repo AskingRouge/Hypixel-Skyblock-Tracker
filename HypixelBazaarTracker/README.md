@@ -44,13 +44,7 @@ Hypixel Bazaar Tracker is an iOS SwiftUI app that shows live Hypixel SkyBlock Ba
 
 ## Screenshots or Video
 
-Add screenshots from the Xcode simulator here before submitting.
 
-Suggested screenshots:
-
-- Bazaar list with search/filter controls
-- Item detail screen
-- Favorites tab
 
 ## Obstacles
 
